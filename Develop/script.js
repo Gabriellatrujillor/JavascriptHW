@@ -19,6 +19,7 @@ var userLength;
 function userPrompts() {
   lengthSelected = true;
   
+  // While statement to 
 while (lengthSelected) {
   userLength = prompt("How many charactes would you like in your password? You must have a minimum of 8 characters and a maximum of 128.");
   if(userLength > 129 || userLength < 8 || isNaN(userLength)) 
@@ -56,12 +57,12 @@ if(userSpecial == true) {
 console.log(masterArray)
 masterArray = masterArray.join('')
 
-//use the unique masterarray and unique length to build the pw
+//uses unique masterarray and unique length to generate password
 generatePassword(masterArray, userLength);
 
 }
 
-
+// ******* Couldn't figure out closing key words for else
 // / IF ALL 4 VALUES ARE FALSE
 // if (
 //   userLower === false &&

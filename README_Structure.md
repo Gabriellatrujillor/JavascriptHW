@@ -38,10 +38,10 @@
 
 [X] Mix in at least one of each guaranteed character in the result
 
-[] Transform the result into a string and pass into writePassword
+[X] Transform the result into a string and pass into writePassword
 //return result.join('');
 
-[ ] Get references to the #generate element
+[X] Get references to the #generate element
 
 [x] Function to Write password to the #password input
 
